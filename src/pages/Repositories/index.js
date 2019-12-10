@@ -1,6 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Repositories = () => <View />;
+import Header from '../../components/Header';
+
+const Repositories = () => (
+  <View>
+    <Header title="Repositórios" />
+  </View>
+);
+
 
 export default Repositories;
