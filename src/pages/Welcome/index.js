@@ -33,7 +33,7 @@ const Welcome = (props) => {
     try {
       await checkUserExist(username);
       await saveUser(username);
-      navigation.navigate('Repositories');
+      navigation.navigate('User');
     } catch (err) {
       setLoading(false);
       setError(true);
